@@ -1,0 +1,33 @@
+#report{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+#report .container{
+    background-color: #fff;
+    width: 80%;
+    padding: 40px 20px;
+}
+#report .report-case table{
+    padding: 20px 40px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+}
+#report td{
+    border: none;
+    border-bottom: 2px solid #acacac;
+}
+
+#report p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#report a{
+    cursor: pointer;
+    font-size: 19px;
+    color: #fff;
+    background-color: #ffa02b;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}

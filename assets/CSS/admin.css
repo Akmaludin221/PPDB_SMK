@@ -1,0 +1,47 @@
+#navSide{
+    width: 20%;
+    float: left;
+}
+#navSide ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#navSide li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#navSide a:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#list-data{
+    width: 100%;
+    float: right;
+}
+#list-data .container{
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-top: 40px;
+}
+#list-data table,th,td{
+    border: 1px solid #000;
+}
+#list-data table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#list-data th{
+    background-color: #acacac;
+}
+#list-data td{
+    padding: 2px 5px;
+    text-align: center;
+}
